@@ -25,10 +25,14 @@ stored locally?
 
     It's easier to compare the local and remote branches with git diff and git log.
 
-How would you collaborate without using Git or GitHub?  What would be easier,
+How would you collaborate without using Git or GitHub? What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Without git or github, it's probably most simple to collaborate using some kind
+    of cloud service like dropbox or google drive. The simple things might be more
+    straightforward, but when different people start editing the same lines of code,
+    things will start to become really difficult. You won't have any guarantees that
+    code won't get lost.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
