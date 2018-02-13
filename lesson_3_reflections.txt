@@ -37,4 +37,11 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When you are collaborating with several people, it's probably better to make
+    changes to a separate branch. The benefits are that the codebase won't change
+    from under you, since you are in control of when you pull, but the drawback is
+    that things are more complex to manage.
+    When you need to stay up-to-date with the changes the others are making, you need
+    to pull the changes into your local master branch, merge the local master into your
+    development branch, and push your development branch to the remote before finally
+    merging that branch into master.
